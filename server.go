@@ -1,10 +1,10 @@
 package main
 
 import (
-	"api.jwt.auth/routers"
-	"api.jwt.auth/settings"
 	"github.com/codegangsta/negroni"
 	"net/http"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/settings"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/routers"
 )
 
 func main() {

@@ -1,10 +1,10 @@
 package routers
 
 import (
-	"api.jwt.auth/controllers"
-	"api.jwt.auth/core/authentication"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/core/authentication"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/controllers"
 )
 
 func SetHelloRoutes(router *mux.Router) *mux.Router {

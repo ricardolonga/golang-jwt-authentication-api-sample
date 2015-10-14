@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"api.jwt.auth/services"
-	"api.jwt.auth/services/models"
 	"encoding/json"
 	"net/http"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/services"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/services/models"
 )
 
 func Login(w http.ResponseWriter, r *http.Request) {

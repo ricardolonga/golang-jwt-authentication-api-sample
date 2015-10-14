@@ -1,9 +1,6 @@
 package authentication
 
 import (
-	"api.jwt.auth/core/redis"
-	"api.jwt.auth/services/models"
-	"api.jwt.auth/settings"
 	"bufio"
 	"code.google.com/p/go-uuid/uuid"
 	"crypto/rsa"
@@ -13,6 +10,9 @@ import (
 	"golang.org/x/crypto/bcrypt"
 	"os"
 	"time"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/settings"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/core/redis"
+	"github.com/ricardolonga/golang-jwt-authentication-api-sample/services/models"
 )
 
 type JWTAuthenticationBackend struct {
